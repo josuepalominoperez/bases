@@ -3,7 +3,7 @@
     var fullName = function (firstName, lastName, opc) {
         if (opc === void 0) { opc = false; }
         if (opc) {
-            return "".concat(firstName, " ").concat(lastName || '-----').toUpperCase();
+            return "".concat(firstName, " ").concat(lastName || 'no last name').toUpperCase();
         }
         else {
             return "".concat(firstName, " ").concat(lastName || '-----');
