@@ -8,10 +8,10 @@ saludo("juan") */
 
 
 //Funcion flecha
-var saludo = (nombre)=>{
+let saludo = (nombre)=>{
 frase="Hola ¿como estas? " + nombre;
 document.write(frase);
 }
 
-saludo("pepe");
+saludo("ferxxo");
 
