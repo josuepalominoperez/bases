@@ -1,13 +1,11 @@
-let pc = {
-    nombre: "MiPC",
-    procesador: "Intel i3",
-    ram:"4gb"
-};
-
-let nombre = pc["nombre"];
-let procesador = pc["procesador"];
-frase = `el nombre es: ${nombre} <br>
-         el procesador es: ${procesador}<br>
-`;
-
-document.write(frase);
+"use strict";
+(function () {
+    var heroe = 'Flash';
+    function returnName() {
+        return heroe;
+    }
+    var miPrimeraFuncion = function () {
+        return 4;
+    };
+    console.log(typeof miPrimeraFuncion);
+})();
